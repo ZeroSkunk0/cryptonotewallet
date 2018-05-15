@@ -16,6 +16,10 @@ include_directories(${CMAKE_BINARY_DIR}
     cryptonote/include
     cryptonote/src)
 
+set(Qt5Gui_DIR "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui")
+set(Qt5Widgets_DIR "/home/zero/Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets")
+
+
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 
